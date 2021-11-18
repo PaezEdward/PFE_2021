@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;STM32-P207_blink_FLASH&apos;" deleteContents="false" description="Delete resource &apos;STM32-P207_blink_FLASH&apos;" element1="/STM32-P207_blink_FLASH" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1636921357415"/>
+</session>

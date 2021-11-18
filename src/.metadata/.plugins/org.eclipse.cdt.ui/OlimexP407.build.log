@@ -1,0 +1,10 @@
+20:08:13 **** Incremental Build of configuration Debug for project OlimexP407 ****
+make -j8 all 
+arm-none-eabi-size   OlimexP407.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6296	     20	   1572	   7888	   1ed0	OlimexP407.elf
+Finished building: default.size.stdout
+ 
+
+20:08:13 Build Finished. 0 errors, 0 warnings. (took 238ms)
+
