@@ -1329,3 +1329,108 @@
 2021-11-18 15:50:00,339 [INFO] OpenFileManager:333 - Restore cursor
 2021-11-18 15:50:39,244 [INFO] DbMcusDocs:143 - JSON generation date=Fri Oct 29 09:56:29 CEST 2021 (1635494189)
 2021-11-18 15:50:39,623 [INFO] DbMcusDocs:79 - Found 682 MCUs documents
+2021-11-18 23:33:27,153 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 361482704 Bytes (618659840)
+2021-11-18 23:33:27,536 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-11-18 23:33:27,536 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-11-18 23:33:27,536 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-11-18 23:33:27,536 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DCMI
+2021-11-18 23:33:27,536 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-11-18 23:33:27,536 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-11-18 23:33:27,538 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-11-18 23:33:28,189 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\license.tmp_save
+2021-11-18 23:33:28,478 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\license.tmp
+2021-11-18 23:33:28,556 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\gpio.tmp_save
+2021-11-18 23:33:28,640 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\gpio.tmp
+2021-11-18 23:33:28,884 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\stm32f4xx_it.c_save
+2021-11-18 23:33:28,992 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\stm32f4xx_it.c
+2021-11-18 23:33:29,001 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\stm32f4xx_it.h_save
+2021-11-18 23:33:29,066 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\stm32f4xx_it.h
+2021-11-18 23:33:29,088 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\stm32f4xx_hal_msp.c_save
+2021-11-18 23:33:29,202 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\stm32f4xx_hal_msp.c
+2021-11-18 23:33:29,210 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\system.tmp_save
+2021-11-18 23:33:29,261 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\system.tmp
+2021-11-18 23:33:29,280 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-11-18 23:33:29,360 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\stm32f4xx_hal_conf.h
+2021-11-18 23:33:29,414 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\main.h_save
+2021-11-18 23:33:29,488 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\main.h
+2021-11-18 23:33:29,503 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\main.c_save
+2021-11-18 23:33:29,636 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\main.c
+2021-11-18 23:33:30,628 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 340mS.
+2021-11-18 23:33:30,633 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-11-18 23:33:31,054 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-11-18 23:33:31,072 [INFO] ApiDbMcu:468 - Load IP Config File for FATFS
+2021-11-18 23:33:31,100 [INFO] ApiDbMcu:468 - Load IP Config File for FREERTOS
+2021-11-18 23:33:31,110 [INFO] ApiDbMcu:468 - Load IP Config File for LIBJPEG
+2021-11-18 23:33:31,167 [INFO] ApiDbMcu:468 - Load IP Config File for LWIP
+2021-11-18 23:33:31,203 [INFO] ApiDbMcu:468 - Load IP Config File for MBEDTLS
+2021-11-18 23:33:31,237 [INFO] ApiDbMcu:468 - Load IP Config File for USB_DEVICE
+2021-11-18 23:33:31,252 [INFO] ApiDbMcu:468 - Load IP Config File for USB_HOST
+2021-11-18 23:33:33,815 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 3182mS.
+2021-11-18 23:33:33,816 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2021-11-18 23:33:33,818 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-11-18 23:35:37,371 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 461105616 Bytes (707788800)
+2021-11-18 23:35:37,685 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-11-18 23:35:37,686 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-11-18 23:35:37,686 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-11-18 23:35:37,686 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DCMI
+2021-11-18 23:35:37,686 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-11-18 23:35:37,686 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-11-18 23:35:37,687 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-11-18 23:35:38,238 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\license.tmp_save
+2021-11-18 23:35:38,302 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\license.tmp
+2021-11-18 23:35:38,337 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\gpio.tmp_save
+2021-11-18 23:35:38,391 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\gpio.tmp
+2021-11-18 23:35:38,526 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\stm32f4xx_it.c_save
+2021-11-18 23:35:38,596 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\stm32f4xx_it.c
+2021-11-18 23:35:38,605 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\stm32f4xx_it.h_save
+2021-11-18 23:35:38,657 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\stm32f4xx_it.h
+2021-11-18 23:35:38,670 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\stm32f4xx_hal_msp.c_save
+2021-11-18 23:35:38,777 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\stm32f4xx_hal_msp.c
+2021-11-18 23:35:38,780 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\system.tmp_save
+2021-11-18 23:35:38,827 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\system.tmp
+2021-11-18 23:35:38,841 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-11-18 23:35:38,933 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\stm32f4xx_hal_conf.h
+2021-11-18 23:35:38,979 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\main.h_save
+2021-11-18 23:35:39,037 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\main.h
+2021-11-18 23:35:39,047 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\main.c_save
+2021-11-18 23:35:39,156 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\main.c
+2021-11-18 23:35:39,849 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 147mS.
+2021-11-18 23:35:39,852 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-11-18 23:35:40,291 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-11-18 23:35:41,734 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 1882mS.
+2021-11-18 23:35:41,735 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2021-11-18 23:35:41,737 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2021-11-18 23:38:50,586 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 355380784 Bytes (821035008)
+2021-11-18 23:38:52,183 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 403628832 Bytes (821035008)
+2021-11-18 23:38:53,640 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 462354712 Bytes (821035008)
+2021-11-18 23:38:53,912 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-11-18 23:38:53,912 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-11-18 23:38:53,912 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-11-18 23:38:53,912 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: DCMI
+2021-11-18 23:38:53,913 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-11-18 23:38:53,913 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-11-18 23:38:53,914 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2021-11-18 23:38:54,468 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\license.tmp_save
+2021-11-18 23:38:54,516 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\license.tmp
+2021-11-18 23:38:54,550 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\gpio.tmp_save
+2021-11-18 23:38:54,606 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\gpio.tmp
+2021-11-18 23:38:54,740 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\stm32f4xx_it.c_save
+2021-11-18 23:38:54,804 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\stm32f4xx_it.c
+2021-11-18 23:38:54,808 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\stm32f4xx_it.h_save
+2021-11-18 23:38:54,860 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\stm32f4xx_it.h
+2021-11-18 23:38:54,873 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\stm32f4xx_hal_msp.c_save
+2021-11-18 23:38:54,959 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\stm32f4xx_hal_msp.c
+2021-11-18 23:38:54,962 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\system.tmp_save
+2021-11-18 23:38:55,008 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\MXTmpFiles\system.tmp
+2021-11-18 23:38:55,021 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\stm32f4xx_hal_conf.h_save
+2021-11-18 23:38:55,098 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\stm32f4xx_hal_conf.h
+2021-11-18 23:38:55,144 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\main.h_save
+2021-11-18 23:38:55,208 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Inc\main.h
+2021-11-18 23:38:55,217 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\main.c_save
+2021-11-18 23:38:55,323 [INFO] CodeEngine:257 - Generated code: C:\Users\Edward\Documents\GitHub\PFE_2021\src\OlimexP407\Core\Src\main.c
+2021-11-18 23:38:56,077 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 170mS.
+2021-11-18 23:38:56,080 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2021-11-18 23:38:56,452 [INFO] ConfigFileManager:1271 - The Die is : DIE413
+2021-11-18 23:38:57,885 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 1805mS.
+2021-11-18 23:38:57,886 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2021-11-18 23:38:57,888 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
