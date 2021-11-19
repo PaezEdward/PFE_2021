@@ -68,8 +68,16 @@ void Error_Handler(void);
 #define STAT3_GPIO_Port GPIOF
 #define STAT4_Pin GPIO_PIN_9
 #define STAT4_GPIO_Port GPIOF
+#define SOFT_SPI1_MOSI_Pin GPIO_PIN_3
+#define SOFT_SPI1_MOSI_GPIO_Port GPIOC
 #define WKUP_Pin GPIO_PIN_0
 #define WKUP_GPIO_Port GPIOA
+#define LCD_BL_Pin GPIO_PIN_0
+#define LCD_BL_GPIO_Port GPIOB
+#define LCD_RST_Pin GPIO_PIN_3
+#define LCD_RST_GPIO_Port GPIOD
+#define LCD_CS_Pin GPIO_PIN_6
+#define LCD_CS_GPIO_Port GPIOD
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

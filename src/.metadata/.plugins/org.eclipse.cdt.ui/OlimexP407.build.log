@@ -1,4 +1,4 @@
-23:39:01 **** Incremental Build of configuration Debug for project OlimexP407 ****
+15:28:26 **** Incremental Build of configuration Debug for project OlimexP407 ****
 make -j8 all 
 arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
 arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
@@ -29,13 +29,13 @@ arm-none-eabi-size   OlimexP407.elf
 arm-none-eabi-objdump -h -S  OlimexP407.elf  > "OlimexP407.list"
 arm-none-eabi-objcopy  -O binary  OlimexP407.elf  "OlimexP407.bin"
    text	   data	    bss	    dec	    hex	filename
-   7620	     20	   1724	   9364	   2494	OlimexP407.elf
+   7764	     20	   1724	   9508	   2524	OlimexP407.elf
 Finished building: default.size.stdout
  
 Finished building: OlimexP407.list
- 
 Finished building: OlimexP407.bin
  
+ 
 
-23:39:04 Build Finished. 0 errors, 0 warnings. (took 2s.180ms)
+15:28:29 Build Finished. 0 errors, 0 warnings. (took 3s.162ms)
 
