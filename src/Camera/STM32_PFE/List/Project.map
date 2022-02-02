@@ -1,0 +1,656 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.2.10312/W32 for ARM                31/Jan/2022  18:57:39
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Exe\Project.out
+#    Map file     =  
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\List\Project.map
+#    Command line =  
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\drv_glcd.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\E700_Camera.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\ExternalSRAM.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\glcd_ll.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\iar_stm32f217ze_sk.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\main.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\misc.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\startup_stm32f2xx.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_adc.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_can.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_crc.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_cryp.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_dac.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_dbgmcu.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_dcmi.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_dma.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_exti.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_flash.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_fsmc.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_gpio.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_hash.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_i2c.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_it.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_iwdg.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_pwr.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_rcc.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_rng.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_rtc.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_sdio.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_spi.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_syscfg.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_tim.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_usart.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\stm32f2xx_wwdg.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\system_stm32f2xx.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\Terminal_9_12x6.o
+#        --redirect _Printf=_PrintfLarge --redirect _Scanf=_ScanfSmall -o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Exe\Project.out
+#        --map
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\List\Project.map
+#        --config
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\..\..\board\stm32f2xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20020000] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x184
+  .intvec            ro code  0x08000000   0x184  startup_stm32f2xx.o [1]
+                            - 0x08000184   0x184
+
+"P1":                                     0x5eec
+  .rodata            const    0x08000184   0xc00  Terminal_9_12x6.o [1]
+  .text              ro code  0x08000d84   0xbfa  xprintflarge.o [3]
+  .text              ro code  0x0800197e     0xa  xsprout.o [3]
+  .text              ro code  0x08001988    0x16  strchr.o [5]
+  .text              ro code  0x080019a0    0x36  strlen.o [5]
+  .text              ro code  0x080019d8    0x58  memchr.o [5]
+  .text              ro code  0x08001a30    0xee  I64DivMod.o [5]
+  .text              ro code  0x08001b20    0x76  ABImemcpy_unaligned.o [5]
+  .text              ro code  0x08001b96    0x42  xdnorm.o [4]
+  .text              ro code  0x08001bd8    0x2e  DblCmpLe.o [4]
+  .text              ro code  0x08001c08   0x1a2  DblMul.o [4]
+  .text              ro code  0x08001dac   0x256  DblDiv.o [4]
+  .text              ro code  0x08002004    0x2c  DblToI32.o [4]
+  .text              ro code  0x08002030    0x30  I32ToDbl.o [4]
+  .text              ro code  0x08002060   0x180  DblSub.o [4]
+  .text              ro code  0x080021e0     0xe  div.o [3]
+  .text              ro code  0x080021f0     0x2  I64DivZer.o [5]
+  .text              ro code  0x080021f4    0xd4  DblAdd.o [4]
+  .text              ro code  0x080022c8   0xaf8  drv_glcd.o [1]
+  .text              ro code  0x08002dc0   0x2d8  glcd_ll.o [1]
+  .text              ro code  0x08003098   0x2d4  main.o [1]
+  .text              ro code  0x0800336c    0x24  ABIassert.o [6]
+  .text              ro code  0x08003390    0x2c  vsprintf.o [3]
+  .text              ro code  0x080033bc   0x12c  stm32f2xx_gpio.o [1]
+  .text              ro code  0x080034e8   0x1d4  stm32f2xx_rcc.o [1]
+  .text              ro code  0x080036bc   0x154  stm32f2xx_tim.o [1]
+  .text              ro code  0x08003810    0x24  printf.o [3]
+  .text              ro code  0x08003834   0x274  iar_stm32f217ze_sk.o [1]
+  .text              ro code  0x08003aa8   0x348  ExternalSRAM.o [1]
+  .text              ro code  0x08003df0   0x7ec  E700_Camera.o [1]
+  .text              ro code  0x080045dc   0x11c  system_stm32f2xx.o [1]
+  .text              ro code  0x080046f8   0x13e  stm32f2xx_usart.o [1]
+  .text              ro code  0x08004836     0x6  abort.o [3]
+  .text              ro code  0x0800483c    0x54  stm32f2xx_syscfg.o [1]
+  .text              ro code  0x08004890    0x98  stm32f2xx_exti.o [1]
+  .text              ro code  0x08004928    0x78  misc.o [1]
+  .text              ro code  0x080049a0   0x154  stm32f2xx_fsmc.o [1]
+  .text              ro code  0x08004af4    0x66  ABImemset.o [5]
+  .text              ro code  0x08004b5c   0x288  stm32f2xx_dma.o [1]
+  .text              ro code  0x08004de4   0x10c  stm32f2xx_dcmi.o [1]
+  .text              ro code  0x08004ef0    0x32  I32ToFlt.o [4]
+  .text              ro code  0x08004f24    0xd8  FltMul.o [4]
+  .text              ro code  0x08004ffc    0x84  FltAdd.o [4]
+  .text              ro code  0x08005080    0xe6  FltSub.o [4]
+  .text              ro code  0x08005168    0x4e  FltToDbl.o [4]
+  .text              ro code  0x080051b8    0x90  DblToFlt.o [4]
+  .text              ro code  0x08005248    0x24  FltCmpLe.o [4]
+  .text              ro code  0x0800526c    0x44  FltToS32.o [4]
+  .text              ro code  0x080052b0    0x14  exit.o [6]
+  .rodata            const    0x080052c4   0x360  drv_glcd.o [1]
+  .rodata            const    0x08005624   0x360  drv_glcd.o [1]
+  .rodata            const    0x08005984   0x110  ExternalSRAM.o [1]
+  .rodata            const    0x08005a94    0x40  drv_glcd.o [1]
+  .rodata            const    0x08005ad4    0x38  main.o [1]
+  .text              ro code  0x08005b0c    0x38  packbits_init_single.o [5]
+  .rodata            const    0x08005b44    0x30  main.o [1]
+  .rodata            const    0x08005b74    0x30  main.o [1]
+  .text              ro code  0x08005ba4    0x28  putchar.o [3]
+  .text              ro code  0x08005bcc    0x28  data_init.o [5]
+  .rodata            const    0x08005bf4    0x24  main.o [1]
+  .iar.init_table    const    0x08005c18    0x10  - Linker created -
+  .rodata            const    0x08005c28    0x20  drv_glcd.o [1]
+  .rodata            const    0x08005c48    0x20  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005c68    0x1c  drv_glcd.o [1]
+  .rodata            const    0x08005c84    0x1c  main.o [1]
+  .text              ro code  0x08005ca0    0x1a  cmain.o [5]
+  .text              ro code  0x08005cba     0x4  low_level_init.o [3]
+  .text              ro code  0x08005cbe     0x4  exit.o [3]
+  .text              ro code  0x08005cc4     0xa  cexit.o [5]
+  .rodata            const    0x08005cd0    0x18  main.o [1]
+  .rodata            const    0x08005ce8    0x18  main.o [1]
+  .rodata            const    0x08005d00    0x18  main.o [1]
+  .text              ro code  0x08005d18    0x16  xprout.o [3]
+  .rodata            const    0x08005d30    0x14  drv_glcd.o [1]
+  .rodata            const    0x08005d44    0x14  main.o [1]
+  .rodata            const    0x08005d58    0x14  Terminal_9_12x6.o [1]
+  .text              ro code  0x08005d6c    0x12  stm32f2xx_it.o [1]
+  .rodata            const    0x08005d80    0x10  drv_glcd.o [1]
+  .rodata            const    0x08005d90    0x10  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005da0    0x10  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005db0    0x10  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005dc0    0x10  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005dd0    0x10  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005de0    0x10  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005df0    0x10  main.o [1]
+  .rodata            const    0x08005e00    0x10  main.o [1]
+  .rodata            const    0x08005e10    0x10  main.o [1]
+  .rodata            const    0x08005e20    0x10  main.o [1]
+  .rodata            const    0x08005e30    0x10  stm32f2xx_rcc.o [1]
+  .text              ro code  0x08005e40    0x10  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005e50     0xc  cstartup_M.o [5]
+  .rodata            const    0x08005e5c     0x8  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005e64     0x8  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005e6c     0x8  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005e74     0x8  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005e7c     0x8  main.o [1]
+  .rodata            const    0x08005e84     0x4  drv_glcd.o [1]
+  .rodata            const    0x08005e88     0x4  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005e8c     0x4  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005e90     0x4  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005e94     0x4  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005e98     0x4  iar_stm32f217ze_sk.o [1]
+  .rodata            const    0x08005e9c     0x4  iar_stm32f217ze_sk.o [1]
+  .text              ro code  0x08005ea0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ea4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ea8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005eac     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005eb0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005eb4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005eb8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ebc     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ec0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ec4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ec8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ecc     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ed0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ed4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ed8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005edc     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ee0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ee4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ee8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005eec     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ef0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ef4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ef8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005efc     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f00     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f04     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f08     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f0c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f10     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f14     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f18     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f1c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f20     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f24     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f28     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f2c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f30     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f34     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f38     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f3c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f40     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f44     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f48     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f4c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f50     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f54     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f58     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f5c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f60     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f64     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f68     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f6c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f70     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f74     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f78     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f7c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f80     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f84     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f88     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f8c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f90     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f94     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f98     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005f9c     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fa0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fa4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fa8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fac     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fb0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fb4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fb8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fbc     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fc0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fc4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fc8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fcc     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fd0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fd4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fd8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fdc     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fe0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fe4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fe8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005fec     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ff0     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ff4     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ff8     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08005ffc     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08006000     0x4  startup_stm32f2xx.o [1]
+  .text              ro code  0x08006004     0x4  startup_stm32f2xx.o [1]
+  .rodata            const    0x08006008     0x0  packbits_init_single.o [5]
+  Initializer bytes  const    0x08006008    0x68  <for P2-1>
+                            - 0x08006070  0x5eec
+
+"P2", part 1 of 2:                          0xad
+  P2-1                        0x20000000    0xad  <Init block>
+    .data            inited   0x20000000     0x4  drv_glcd.o [1]
+    .data            inited   0x20000004     0x4  drv_glcd.o [1]
+    .data            inited   0x20000008     0x4  drv_glcd.o [1]
+    .data            inited   0x2000000c    0x10  iar_stm32f217ze_sk.o [1]
+    .data            inited   0x2000001c    0x20  iar_stm32f217ze_sk.o [1]
+    .data            inited   0x2000003c     0x8  iar_stm32f217ze_sk.o [1]
+    .data            inited   0x20000044     0x8  iar_stm32f217ze_sk.o [1]
+    .data            inited   0x2000004c     0x8  iar_stm32f217ze_sk.o [1]
+    .data            inited   0x20000054    0x18  Terminal_9_12x6.o [1]
+    .bss             inited   0x2000006c     0x4  drv_glcd.o [1]
+    .bss             inited   0x20000070     0x4  drv_glcd.o [1]
+    .bss             inited   0x20000074     0x4  drv_glcd.o [1]
+    .bss             inited   0x20000078     0x4  drv_glcd.o [1]
+    .bss             inited   0x2000007c     0x4  drv_glcd.o [1]
+    .bss             inited   0x20000080     0x4  drv_glcd.o [1]
+    .bss             inited   0x20000084     0x4  drv_glcd.o [1]
+    .bss             inited   0x20000088     0x4  drv_glcd.o [1]
+    .bss             inited   0x2000008c     0x4  drv_glcd.o [1]
+    .bss             inited   0x20000090     0x4  drv_glcd.o [1]
+    .bss             inited   0x20000094     0x4  drv_glcd.o [1]
+    .bss             inited   0x20000098     0x4  glcd_ll.o [1]
+    .bss             inited   0x2000009c    0x10  main.o [1]
+    .bss             inited   0x200000ac     0x1  drv_glcd.o [1]
+                            - 0x200000ad    0xad
+
+"P2", part 2 of 2:                         0x400
+  CSTACK                      0x200000b0   0x400  <Block>
+    CSTACK           uninit   0x200000b0   0x400  <Block tail>
+                            - 0x200004b0   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x68 (60% of destination):
+          0x08006008  0x68
+    1 destination range, total size 0xad:
+          0x20000000  0xad
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj: [1]
+    E700_Camera.o             2 028
+    ExternalSRAM.o              840      272
+    Terminal_9_12x6.o                  3 106       24
+    drv_glcd.o                2 808    1 927       57
+    glcd_ll.o                   728        2        4
+    iar_stm32f217ze_sk.o        628      227       72
+    main.o                      724      390       16
+    misc.o                      120
+    startup_stm32f2xx.o         764
+    stm32f2xx_dcmi.o            268
+    stm32f2xx_dma.o             648
+    stm32f2xx_exti.o            152
+    stm32f2xx_fsmc.o            340
+    stm32f2xx_gpio.o            300
+    stm32f2xx_it.o               18
+    stm32f2xx_rcc.o             468       16
+    stm32f2xx_syscfg.o           84
+    stm32f2xx_tim.o             340
+    stm32f2xx_usart.o           318
+    system_stm32f2xx.o          284
+    -------------------------------------------------
+    Total:                   11 860    5 940      173
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    abort.o                       6
+    div.o                        14
+    exit.o                        4
+    low_level_init.o              4
+    printf.o                     36
+    putchar.o                    40
+    vsprintf.o                   44
+    xprintflarge.o            3 066
+    xprout.o                     22
+    xsprout.o                    10
+    -------------------------------------------------
+    Total:                    3 246
+
+m7M_tl.a: [4]
+    DblAdd.o                    212
+    DblCmpLe.o                   46
+    DblDiv.o                    598
+    DblMul.o                    418
+    DblSub.o                    384
+    DblToFlt.o                  144
+    DblToI32.o                   44
+    FltAdd.o                    132
+    FltCmpLe.o                   36
+    FltMul.o                    216
+    FltSub.o                    230
+    FltToDbl.o                   78
+    FltToS32.o                   68
+    I32ToDbl.o                   48
+    I32ToFlt.o                   50
+    xdnorm.o                     66
+    -------------------------------------------------
+    Total:                    2 770
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o       118
+    ABImemset.o                 102
+    I64DivMod.o                 238
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    memchr.o                     88
+    packbits_init_single.o       56
+    strchr.o                     22
+    strlen.o                     54
+    -------------------------------------------------
+    Total:                      768
+
+shb_l.a: [6]
+    ABIassert.o                  36
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       56
+
+    Gaps                         26        6
+    Linker created                        16    1 024
+-----------------------------------------------------
+    Grand Total:             18 726    5 962    1 197
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08005c18          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08005c28          --   Gb  - Linker created -
+?main                   0x08005ca1         Code  Gb  cmain.o [5]
+APBAHBPrescTable        0x08005e30   0x10  Data  Lc  stm32f2xx_rcc.o [1]
+BUTTON_CLK              0x08005c48   0x20  Data  Gb  iar_stm32f217ze_sk.o [1]
+BUTTON_EXTI_LINE        0x08005db0   0x10  Data  Gb  iar_stm32f217ze_sk.o [1]
+BUTTON_IRQn             0x08005de0   0x10  Data  Gb  iar_stm32f217ze_sk.o [1]
+BUTTON_PIN              0x08005da0   0x10  Data  Gb  iar_stm32f217ze_sk.o [1]
+BUTTON_PIN_SOURCE       0x08005dd0   0x10  Data  Gb  iar_stm32f217ze_sk.o [1]
+BUTTON_PORT             0x2000001c   0x20  Data  Gb  iar_stm32f217ze_sk.o [1]
+BUTTON_PORT_SOURCE      0x08005dc0   0x10  Data  Gb  iar_stm32f217ze_sk.o [1]
+BusFault_Handler        0x08005d73    0x2  Code  Gb  stm32f2xx_it.o [1]
+COM_RX_AF               0x08005e9c    0x4  Data  Gb  iar_stm32f217ze_sk.o [1]
+COM_RX_PIN              0x08005e8c    0x4  Data  Gb  iar_stm32f217ze_sk.o [1]
+COM_RX_PIN_SOURCE       0x08005e94    0x4  Data  Gb  iar_stm32f217ze_sk.o [1]
+COM_RX_PORT             0x2000004c    0x8  Data  Gb  iar_stm32f217ze_sk.o [1]
+COM_RX_PORT_CLK         0x08005e74    0x8  Data  Gb  iar_stm32f217ze_sk.o [1]
+COM_TX_AF               0x08005e98    0x4  Data  Gb  iar_stm32f217ze_sk.o [1]
+COM_TX_PIN              0x08005e88    0x4  Data  Gb  iar_stm32f217ze_sk.o [1]
+COM_TX_PIN_SOURCE       0x08005e90    0x4  Data  Gb  iar_stm32f217ze_sk.o [1]
+COM_TX_PORT             0x20000044    0x8  Data  Gb  iar_stm32f217ze_sk.o [1]
+COM_TX_PORT_CLK         0x08005e6c    0x8  Data  Gb  iar_stm32f217ze_sk.o [1]
+COM_USART               0x2000003c    0x8  Data  Gb  iar_stm32f217ze_sk.o [1]
+COM_USART_CLK           0x08005e64    0x8  Data  Gb  iar_stm32f217ze_sk.o [1]
+CSTACK$$Base            0x200000b0          --   Gb  - Linker created -
+CSTACK$$Limit           0x200004b0          --   Gb  - Linker created -
+DCMI_CROPCmd            0x08004ea9   0x22  Code  Gb  stm32f2xx_dcmi.o [1]
+DCMI_CROPConfig         0x08004e6d   0x1a  Code  Gb  stm32f2xx_dcmi.o [1]
+DCMI_CaptureCmd         0x08004e87   0x22  Code  Gb  stm32f2xx_dcmi.o [1]
+DCMI_Cmd                0x08004e4b   0x22  Code  Gb  stm32f2xx_dcmi.o [1]
+DCMI_Config             0x080041dd  0x1d8  Code  Lc  E700_Camera.o [1]
+DCMI_DeInit             0x08004de5   0x2c  Code  Gb  stm32f2xx_dcmi.o [1]
+DCMI_Init               0x08004e11   0x3a  Code  Gb  stm32f2xx_dcmi.o [1]
+DMA_ClearFlag           0x08004d53   0x24  Code  Gb  stm32f2xx_dma.o [1]
+DMA_Cmd                 0x08004cf5   0x1a  Code  Gb  stm32f2xx_dma.o [1]
+DMA_DeInit              0x08004b5d  0x140  Code  Gb  stm32f2xx_dma.o [1]
+DMA_GetFlagStatus       0x08004d15   0x3e  Code  Gb  stm32f2xx_dma.o [1]
+DMA_Init                0x08004c9d   0x58  Code  Gb  stm32f2xx_dma.o [1]
+DMA_SetCurrDataCounter  0x08004d0f    0x6  Code  Gb  stm32f2xx_dma.o [1]
+DebugMon_Handler        0x08005d79    0x2  Code  Gb  stm32f2xx_it.o [1]
+DelayResolution100us    0x080032c5   0x22  Code  Gb  main.o [1]
+E700_Camera_CaptureImage
+                        0x08003f77   0x40  Code  Gb  E700_Camera.o [1]
+E700_Camera_Deinitialize
+                        0x08003f43   0x34  Code  Gb  E700_Camera.o [1]
+E700_Camera_Initialize  0x08003df1  0x152  Code  Gb  E700_Camera.o [1]
+E700_Camera_ProcessImage
+                        0x08003fb7  0x226  Code  Gb  E700_Camera.o [1]
+EXTI_Init               0x08004891   0x88  Code  Gb  stm32f2xx_exti.o [1]
+ExtSRAM_Deinitialize    0x08003d4b   0x12  Code  Gb  ExternalSRAM.o [1]
+ExtSRAM_Initialize      0x08003aa9  0x2a2  Code  Gb  ExternalSRAM.o [1]
+ExtSRAM_Test            0x08003d5d   0x7e  Code  Gb  ExternalSRAM.o [1]
+FSMC_NORSRAMCmd         0x08004ab9   0x32  Code  Gb  stm32f2xx_fsmc.o [1]
+FSMC_NORSRAMDeInit      0x080049a1   0x38  Code  Gb  stm32f2xx_fsmc.o [1]
+FSMC_NORSRAMInit        0x080049d9   0xe0  Code  Gb  stm32f2xx_fsmc.o [1]
+GLCD_Backlight          0x08002ddb    0x8  Code  Gb  glcd_ll.o [1]
+GLCD_Cmd_Iss0           0x080052c4  0x360  Data  Lc  drv_glcd.o [1]
+GLCD_Cmd_Iss1           0x08005624  0x360  Data  Lc  drv_glcd.o [1]
+GLCD_LLInit             0x08002de3   0xf8  Code  Gb  glcd_ll.o [1]
+GLCD_PowerUpInit        0x080025bd  0x1a4  Code  Gb  drv_glcd.o [1]
+GLCD_SPI_ChipSelect     0x08002edb   0x1a  Code  Gb  glcd_ll.o [1]
+GLCD_SPI_Init           0x08002f0b   0xc2  Code  Gb  glcd_ll.o [1]
+GLCD_SPI_ReceiveBlock   0x08003049   0x1a  Code  Gb  glcd_ll.o [1]
+GLCD_SPI_SendBlock      0x08003029   0x20  Code  Gb  glcd_ll.o [1]
+GLCD_SPI_SetWordWidth   0x08002ef5   0x16  Code  Gb  glcd_ll.o [1]
+GLCD_SPI_TranserByte    0x08002fcd   0x5c  Code  Gb  glcd_ll.o [1]
+GLCD_SendCmd            0x080022c9  0x2f4  Code  Gb  drv_glcd.o [1]
+GLCD_SetFont            0x080027df   0x14  Code  Gb  drv_glcd.o [1]
+GLCD_SetReset           0x08002dc1   0x1a  Code  Gb  glcd_ll.o [1]
+GLCD_SetWindow          0x080027f3   0x84  Code  Gb  drv_glcd.o [1]
+GLCD_TextCalcWindow     0x08002885  0x10a  Code  Lc  drv_glcd.o [1]
+GLCD_TextSetPos         0x08002877    0xe  Code  Gb  drv_glcd.o [1]
+GLCD_UpdateMemory       0x08002761   0x7e  Code  Gb  drv_glcd.o [1]
+GLCD_print              0x08002d8d   0x34  Code  Gb  drv_glcd.o [1]
+GLCD_putchar            0x0800298f  0x398  Code  Gb  drv_glcd.o [1]
+GPIO_CLK                0x08005d90   0x10  Data  Gb  iar_stm32f217ze_sk.o [1]
+GPIO_Init               0x080033bd   0xaa  Code  Gb  stm32f2xx_gpio.o [1]
+GPIO_PIN                0x08005e5c    0x8  Data  Gb  iar_stm32f217ze_sk.o [1]
+GPIO_PORT               0x2000000c   0x10  Data  Gb  iar_stm32f217ze_sk.o [1]
+GPIO_PinAFConfig        0x0800348f   0x5a  Code  Gb  stm32f2xx_gpio.o [1]
+GPIO_ReadInputDataBit   0x08003467   0x1a  Code  Gb  stm32f2xx_gpio.o [1]
+GPIO_WriteBit           0x08003481    0xe  Code  Gb  stm32f2xx_gpio.o [1]
+Glcd_Iss                0x200000ac    0x1  Data  Lc  drv_glcd.o [1]
+HardFault_Handler       0x08005d6f    0x2  Code  Gb  stm32f2xx_it.o [1]
+LCD_Test                0x080030c9  0x176  Code  Gb  main.o [1]
+LoadInt                 0x080012fd   0x6e  Code  Lc  xprintflarge.o [3]
+MemManage_Handler       0x08005d71    0x2  Code  Gb  stm32f2xx_it.o [1]
+NMI_Handler             0x08005d6d    0x2  Code  Gb  stm32f2xx_it.o [1]
+NVIC_Init               0x08004929   0x68  Code  Gb  misc.o [1]
+OddPixel                0x2000006c    0x4  Data  Lc  drv_glcd.o [1]
+PendSV_Handler          0x08005d7b    0x2  Code  Gb  stm32f2xx_it.o [1]
+PixelHold               0x20000070    0x4  Data  Lc  drv_glcd.o [1]
+RCC_AHB1PeriphClockCmd  0x0800359f   0x1e  Code  Gb  stm32f2xx_rcc.o [1]
+RCC_AHB1PeriphResetCmd  0x08003635   0x1e  Code  Gb  stm32f2xx_rcc.o [1]
+RCC_AHB2PeriphClockCmd  0x080035bd   0x1e  Code  Gb  stm32f2xx_rcc.o [1]
+RCC_AHB3PeriphClockCmd  0x080035db   0x1e  Code  Gb  stm32f2xx_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x080035f9   0x1e  Code  Gb  stm32f2xx_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x08003653   0x1e  Code  Gb  stm32f2xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08003617   0x1e  Code  Gb  stm32f2xx_rcc.o [1]
+RCC_GetClocksFreq       0x080034e9   0xb6  Code  Gb  stm32f2xx_rcc.o [1]
+RCC_MCO1Config          0x08003671   0x18  Code  Gb  stm32f2xx_rcc.o [1]
+Region$$Table$$Base     0x08005c18          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08005c28          --   Gb  - Linker created -
+STM_EVAL_COMInit        0x08003975   0xdc  Code  Gb  iar_stm32f217ze_sk.o [1]
+STM_EVAL_LEDInit        0x08003835   0x44  Code  Gb  iar_stm32f217ze_sk.o [1]
+STM_EVAL_LEDOff         0x0800388d   0x14  Code  Gb  iar_stm32f217ze_sk.o [1]
+STM_EVAL_LEDOn          0x08003879   0x14  Code  Gb  iar_stm32f217ze_sk.o [1]
+STM_EVAL_PBGetState     0x0800395b   0x1a  Code  Gb  iar_stm32f217ze_sk.o [1]
+STM_EVAL_PBInit         0x080038a1   0xba  Code  Gb  iar_stm32f217ze_sk.o [1]
+SVC_Handler             0x08005d77    0x2  Code  Gb  stm32f2xx_it.o [1]
+SYSCFG_EXTILineConfig   0x0800483d   0x50  Code  Gb  stm32f2xx_syscfg.o [1]
+SetSysClock             0x08004623   0xb6  Code  Lc  system_stm32f2xx.o [1]
+SysTickStart            0x08003099   0x28  Code  Gb  main.o [1]
+SysTickStop             0x080030c1    0x8  Code  Gb  main.o [1]
+SysTick_Handler         0x08005d7d    0x2  Code  Gb  stm32f2xx_it.o [1]
+SystemInit              0x080045dd   0x46  Code  Gb  system_stm32f2xx.o [1]
+TIM_ARRPreloadConfig    0x080037f5   0x1c  Code  Gb  stm32f2xx_tim.o [1]
+TIM_Cmd                 0x080037cd   0x1c  Code  Gb  stm32f2xx_tim.o [1]
+TIM_InternalClockConfig
+                        0x080037e9    0xc  Code  Gb  stm32f2xx_tim.o [1]
+TIM_OC3Init             0x08003727   0x8a  Code  Gb  stm32f2xx_tim.o [1]
+TIM_TimeBaseInit        0x080036bd   0x6a  Code  Gb  stm32f2xx_tim.o [1]
+TabSize                 0x20000008    0x4  Data  Lc  drv_glcd.o [1]
+Terminal_9_12_6         0x20000054   0x18  Data  Gb  Terminal_9_12x6.o [1]
+TextBackgndColour       0x2000007c    0x4  Data  Lc  drv_glcd.o [1]
+TextColour              0x20000078    0x4  Data  Lc  drv_glcd.o [1]
+TextStream              0x08000184  0xc00  Data  Lc  Terminal_9_12x6.o [1]
+TextX_Pos               0x20000080    0x4  Data  Lc  drv_glcd.o [1]
+TextY_Pos               0x20000084    0x4  Data  Lc  drv_glcd.o [1]
+USART_Cmd               0x080047f5   0x1c  Code  Gb  stm32f2xx_usart.o [1]
+USART_GetFlagStatus     0x08004819   0x1e  Code  Gb  stm32f2xx_usart.o [1]
+USART_Init              0x080046f9   0xee  Code  Gb  stm32f2xx_usart.o [1]
+USART_InitStructure     0x2000009c   0x10  Data  Gb  main.o [1]
+USART_SendData          0x08004811    0x8  Code  Gb  stm32f2xx_usart.o [1]
+UsageFault_Handler      0x08005d75    0x2  Code  Gb  stm32f2xx_it.o [1]
+Width                   0x20000098    0x4  Data  Lc  glcd_ll.o [1]
+XL_Win                  0x20000088    0x4  Data  Lc  drv_glcd.o [1]
+XR_Win                  0x20000000    0x4  Data  Lc  drv_glcd.o [1]
+YD_Win                  0x20000004    0x4  Data  Lc  drv_glcd.o [1]
+YU_Win                  0x2000008c    0x4  Data  Lc  drv_glcd.o [1]
+_GenldLarge             0x080016f1  0x246  Code  Lc  xprintflarge.o [3]
+_LdtobLarge             0x08001471  0x27a  Code  Lc  xprintflarge.o [3]
+_LitobLarge             0x0800136b  0x106  Code  Lc  xprintflarge.o [3]
+_PrintfLarge            0x08000d85  0x572  Code  Gb  xprintflarge.o [3]
+_Prout                  0x08005d19   0x16  Code  Gb  xprout.o [3]
+_PutcharsLarge          0x08001937   0x2e  Code  Lc  xprintflarge.o [3]
+_SProut                 0x0800197f    0xa  Code  Gb  xsprout.o [3]
+__aeabi_assert          0x0800336d   0x24  Code  Gb  ABIassert.o [6]
+__aeabi_cdcmple         0x08001bd9         Code  Gb  DblCmpLe.o [4]
+__aeabi_cfcmple         0x08005249         Code  Gb  FltCmpLe.o [4]
+__aeabi_d2f             0x080051b9         Code  Gb  DblToFlt.o [4]
+__aeabi_d2uiz           0x08002005         Code  Gb  DblToI32.o [4]
+__aeabi_ddiv            0x08001dad         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x08001c09         Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x08002061         Code  Gb  DblSub.o [4]
+__aeabi_f2d             0x08005169         Code  Gb  FltToDbl.o [4]
+__aeabi_f2iz            0x0800526d         Code  Gb  FltToS32.o [4]
+__aeabi_fadd            0x08004ffd         Code  Gb  FltAdd.o [4]
+__aeabi_fmul            0x08004f25         Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x08005081         Code  Gb  FltSub.o [4]
+__aeabi_i2d             0x08002031         Code  Gb  I32ToDbl.o [4]
+__aeabi_i2f             0x08004ef1         Code  Gb  I32ToFlt.o [4]
+__aeabi_ldiv0           0x080021f1         Code  Gb  I64DivZer.o [5]
+__aeabi_memset          0x08004af5         Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x08002045         Code  Gb  I32ToDbl.o [4]
+__aeabi_ui2f            0x08004f05         Code  Gb  I32ToFlt.o [4]
+__aeabi_uldivmod        0x08001a31         Code  Gb  I64DivMod.o [5]
+__cmain                 0x08005ca1         Code  Gb  cmain.o [5]
+__exit                  0x080052b1   0x14  Code  Gb  exit.o [6]
+__iar_Dnorm             0x08001b97   0x42  Code  Gb  xdnorm.o [4]
+__iar_Memchr            0x080019d9         Code  Gb  memchr.o [5]
+__iar_Memset            0x08004af5         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x08004afd         Code  Gb  ABImemset.o [5]
+__iar_Strchr            0x08001989         Code  Gb  strchr.o [5]
+__iar_d2uiz             0x08002011         Code  Gb  DblToI32.o [4]
+__iar_dadd              0x080021f5         Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x08005bcd   0x28  Code  Gb  data_init.o [5]
+__iar_dsub              0x08002075         Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x08002087         Code  Gb  DblSub.o [4]
+__iar_fadd              0x0800500d         Code  Gb  FltAdd.o [4]
+__iar_fsub              0x08005091         Code  Gb  FltSub.o [4]
+__iar_fsubStart         0x080050a1         Code  Gb  FltSub.o [4]
+__iar_packbits_init_single3
+                        0x08005b0d   0x38  Code  Gb  packbits_init_single.o [5]
+__iar_program_start     0x08005e51         Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x08002049         Code  Gb  I32ToDbl.o [4]
+__iar_ui2f              0x08004f09         Code  Gb  I32ToFlt.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x08001b21         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x08001b41         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x08001b41         Code  Gb  ABImemcpy_unaligned.o [5]
+__low_level_init        0x08005cbb    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f2xx.o [1]
+__write                 0x080032e7   0x30  Code  Gb  main.o [1]
+_call_main              0x08005cad         Code  Gb  cmain.o [5]
+_exit                   0x08005cc5         Code  Gb  cexit.o [5]
+_main                   0x08005cb7         Code  Gb  cmain.o [5]
+abort                   0x08004837    0x6  Code  Gb  abort.o [3]
+div                     0x080021e1    0xe  Code  Gb  div.o [3]
+exit                    0x08005cbf    0x4  Code  Gb  exit.o [3]
+local_I2C_Delay         0x08004405    0xe  Code  Lc  E700_Camera.o [1]
+local_I2C_Initialize    0x080043b5   0x50  Code  Lc  E700_Camera.o [1]
+local_I2C_ReadByte      0x0800446b   0xb0  Code  Lc  E700_Camera.o [1]
+local_I2C_Start         0x08004413   0x24  Code  Lc  E700_Camera.o [1]
+local_I2C_Stop          0x08004437   0x34  Code  Lc  E700_Camera.o [1]
+local_I2C_WriteByte     0x0800451b   0x86  Code  Lc  E700_Camera.o [1]
+main                    0x0800323f   0x86  Code  Gb  main.o [1]
+memchr                  0x080019d9         Code  Gb  memchr.o [5]
+pCurrFont               0x20000074    0x4  Data  Lc  drv_glcd.o [1]
+printf                  0x08003811   0x24  Code  Gb  printf.o [3]
+putchar                 0x08005ba5   0x28  Code  Gb  putchar.o [3]
+strchr                  0x08001989         Code  Gb  strchr.o [5]
+strlen                  0x080019a1         Code  Gb  strlen.o [5]
+vsprintf                0x08003391   0x2c  Code  Gb  vsprintf.o [3]
+
+
+[1] = C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  18 726 bytes of readonly  code memory
+   5 962 bytes of readonly  data memory
+   1 197 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

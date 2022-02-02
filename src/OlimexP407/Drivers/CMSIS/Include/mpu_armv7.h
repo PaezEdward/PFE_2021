@@ -243,28 +243,28 @@ __STATIC_INLINE void ARM_MPU_SetRegionEx(uint32_t rnr, uint32_t rbar, uint32_t r
 * \param src Source data is copied from.
 * \param len Amount of data words to be copied.
 */
-__STATIC_INLINE void orderedCpy(volatile uint32_t* dst, const uint32_t* __RESTRICT src, uint32_t len)
-{
-  uint32_t i;
-  for (i = 0U; i < len; ++i) 
-  {
-    dst[i] = src[i];
-  }
-}
-
-/** Load the given number of MPU regions from a table.
-* \param table Pointer to the MPU configuration table.
-* \param cnt Amount of regions to be configured.
-*/
-__STATIC_INLINE void ARM_MPU_Load(ARM_MPU_Region_t const* table, uint32_t cnt) 
-{
-  const uint32_t rowWordSize = sizeof(ARM_MPU_Region_t)/4U;
-  while (cnt > MPU_TYPE_RALIASES) {
-    orderedCpy(&(MPU->RBAR), &(table->RBAR), MPU_TYPE_RALIASES*rowWordSize);
-    table += MPU_TYPE_RALIASES;
-    cnt -= MPU_TYPE_RALIASES;
-  }
-  orderedCpy(&(MPU->RBAR), &(table->RBAR), cnt*rowWordSize);
-}
+//__STATIC_INLINE void orderedCpy(volatile uint32_t* dst, const uint32_t* __RESTRICT src, uint32_t len)
+//{
+//  uint32_t i;
+//  for (i = 0U; i < len; ++i) 
+//  {
+//    dst[i] = src[i];
+//  }
+//}
+//
+///** Load the given number of MPU regions from a table.
+//* \param table Pointer to the MPU configuration table.
+//* \param cnt Amount of regions to be configured.
+//*/
+//__STATIC_INLINE void ARM_MPU_Load(ARM_MPU_Region_t const* table, uint32_t cnt) 
+//{
+//  const uint32_t rowWordSize = sizeof(ARM_MPU_Region_t)/4U;
+//  while (cnt > MPU_TYPE_RALIASES) {
+//    orderedCpy(&(MPU->RBAR), &(table->RBAR), MPU_TYPE_RALIASES*rowWordSize);
+//    table += MPU_TYPE_RALIASES;
+//    cnt -= MPU_TYPE_RALIASES;
+//  }
+//  orderedCpy(&(MPU->RBAR), &(table->RBAR), cnt*rowWordSize);
+//}
 
 #endif
