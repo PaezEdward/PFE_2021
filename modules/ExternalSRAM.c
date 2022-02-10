@@ -105,7 +105,7 @@ int ExtSRAM_Initialize(void)
 	GPIO_PinAFConfig(GPIOD, GPIO_PinSource4, GPIO_AF_FSMC);
 	GPIO_PinAFConfig(GPIOD, GPIO_PinSource5, GPIO_AF_FSMC);
 	
-	/* NE1 configuration */
+	/* NE1 configuration =!CS */
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_7;
 	GPIO_Init(GPIOD, &GPIO_InitStructure);
 	GPIO_PinAFConfig(GPIOD, GPIO_PinSource7, GPIO_AF_FSMC);

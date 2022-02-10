@@ -1,0 +1,687 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  05/Feb/2022  00:06:54
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Exe\Camera.out
+#    Map file     =
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\List\Camera.map
+#    Command line =
+#        -f
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Exe\Camera.out.rsp
+#        (C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\modules\drv_glcd.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\modules\E700_Camera.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\modules\ExternalSRAM.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\modules\glcd_ll.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\board\iar_stm32f217ze_sk.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\User\main.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\misc.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\board\startup_stm32f2xx.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_adc.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_can.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_crc.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_cryp.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_dac.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_dbgmcu.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_dcmi.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_dma.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_exti.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_flash.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_fsmc.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_gpio.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_hash.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_i2c.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\User\stm32f2xx_it.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_iwdg.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_pwr.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_rcc.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_rng.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_rtc.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_sdio.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_spi.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_syscfg.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_tim.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_usart.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver\stm32f2xx_wwdg.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\CMSIS\system_stm32f2xx.o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\User\Terminal_9_12x6.o
+#        --no_out_extension -o
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Exe\Camera.out
+#        --map
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\List\Camera.map
+#        --config
+#        C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\..\..\board\stm32f2xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x80f'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2002'0000] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x184
+  .intvec            ro code   0x800'0000   0x184  startup_stm32f2xx.o [4]
+                             - 0x800'0184   0x184
+
+"P1":                                      0x6308
+  .text              ro code   0x800'0184   0xf16  xprintffull_nomb.o [6]
+  .text              ro code   0x800'109a    0x3a  packbits_init_single.o [8]
+  .text              ro code   0x800'10d4    0x16  strchr.o [8]
+  .text              ro code   0x800'10ea     0xa  xsprout.o [6]
+  .text              ro code   0x800'10f4    0x40  xfail_s.o [6]
+  .text              ro code   0x800'1134    0x36  strlen.o [8]
+  .rodata            const     0x800'116a     0x1  drv_glcd.o [5]
+  .text              ro code   0x800'116c    0x58  memchr.o [8]
+  .text              ro code   0x800'11c4    0xa6  ABImemcpy.o [8]
+  .text              ro code   0x800'126c    0x70  frexp.o [7]
+  .text              ro code   0x800'12dc    0x34  DblCmpLe.o [7]
+  .text              ro code   0x800'1310    0x34  DblCmpGe.o [7]
+  .text              ro code   0x800'1344   0x13a  ldexp.o [7]
+  .text              ro code   0x800'1480    0x36  DblToS32.o [7]
+  .text              ro code   0x800'14b8    0x22  S32ToDbl.o [7]
+  .text              ro code   0x800'14dc   0x25e  DblAddSub.o [7]
+  .text              ro code   0x800'173c   0x246  DblDiv.o [7]
+  .text              ro code   0x800'1984    0x22  DblToU32.o [7]
+  .text              ro code   0x800'19a8    0x1c  U32ToDbl.o [7]
+  .text              ro code   0x800'19c4   0x1aa  DblMul.o [7]
+  .text              ro code   0x800'1b70   0x230  I64DivMod.o [8]
+  .text              ro code   0x800'1da0     0x6  abort.o [6]
+  .text              ro code   0x800'1da8     0x2  I64DivZer.o [8]
+  .text              ro code   0x800'1dac    0x14  exit.o [9]
+  .rodata            const     0x800'1dc0   0xc00  Terminal_9_12x6.o [3]
+  .text              ro code   0x800'29c0   0xb06  drv_glcd.o [5]
+  .text              ro code   0x800'34c8   0x2d8  glcd_ll.o [5]
+  .text              ro code   0x800'37a0   0x204  main.o [3]
+  .text              ro code   0x800'39a4    0x24  ABIassert.o [9]
+  .text              ro code   0x800'39c8    0x34  vsprintf.o [6]
+  .text              ro code   0x800'39fc   0x136  stm32f2xx_gpio.o [2]
+  .text              ro code   0x800'3b34   0x1f8  stm32f2xx_rcc.o [2]
+  .text              ro code   0x800'3d2c   0x158  stm32f2xx_tim.o [2]
+  .text              ro code   0x800'3e84   0x2b8  iar_stm32f217ze_sk.o [4]
+  .text              ro code   0x800'413c   0x33c  ExternalSRAM.o [5]
+  .text              ro code   0x800'4478   0x800  E700_Camera.o [5]
+  .text              ro code   0x800'4c78   0x11c  system_stm32f2xx.o [1]
+  .text              ro code   0x800'4d94    0x5c  stm32f2xx_syscfg.o [2]
+  .text              ro code   0x800'4df0    0x98  stm32f2xx_exti.o [2]
+  .text              ro code   0x800'4e88    0x78  misc.o [2]
+  .text              ro code   0x800'4f00   0x106  stm32f2xx_usart.o [2]
+  .text              ro code   0x800'5008   0x158  stm32f2xx_fsmc.o [2]
+  .text              ro code   0x800'5160    0x66  ABImemset.o [8]
+  .text              ro code   0x800'51c8   0x27c  stm32f2xx_dma.o [2]
+  .text              ro code   0x800'5444   0x110  stm32f2xx_dcmi.o [2]
+  .text              ro code   0x800'5554    0x1a  U32ToFlt.o [7]
+  .text              ro code   0x800'5570    0x24  S32ToFlt.o [7]
+  .text              ro code   0x800'5594    0xd8  FltMul.o [7]
+  .text              ro code   0x800'566c   0x162  FltAddSub.o [7]
+  .text              ro code   0x800'57d0    0x48  FltToDbl.o [7]
+  .text              ro code   0x800'5818    0x68  DblToFlt.o [7]
+  .text              ro code   0x800'5880    0x28  FltCmpLe.o [7]
+  .text              ro code   0x800'58a8    0x26  FltToS32.o [7]
+  .rodata            const     0x800'58d0   0x360  drv_glcd.o [5]
+  .rodata            const     0x800'5c30   0x360  drv_glcd.o [5]
+  .rodata            const     0x800'5f90   0x110  ExternalSRAM.o [5]
+  .rodata            const     0x800'60a0    0x40  drv_glcd.o [5]
+  .text              ro code   0x800'60e0    0x28  data_init.o [8]
+  .iar.init_table    const     0x800'6108    0x10  - Linker created -
+  .rodata            const     0x800'6118    0x20  iar_stm32f217ze_sk.o [4]
+  .text              ro code   0x800'6138    0x1e  cmain.o [8]
+  .text              ro code   0x800'6156     0x4  low_level_init.o [6]
+  .text              ro code   0x800'615a     0x4  exit.o [6]
+  .text              ro code   0x800'6160     0xa  cexit.o [8]
+  .text              ro code   0x800'616c    0x1c  cstartup_M.o [8]
+  .rodata            const     0x800'6188    0x14  drv_glcd.o [5]
+  .rodata            const     0x800'619c    0x14  Terminal_9_12x6.o [3]
+  .text              ro code   0x800'61b0    0x12  stm32f2xx_it.o [3]
+  .rodata            const     0x800'61c4    0x10  drv_glcd.o [5]
+  .rodata            const     0x800'61d4    0x10  drv_glcd.o [5]
+  .rodata            const     0x800'61e4    0x10  drv_glcd.o [5]
+  .rodata            const     0x800'61f4    0x10  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'6204    0x10  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'6214    0x10  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'6224    0x10  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'6234    0x10  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'6244    0x10  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'6254    0x10  main.o [3]
+  .rodata            const     0x800'6264    0x10  stm32f2xx_rcc.o [2]
+  .text              ro code   0x800'6274    0x10  startup_stm32f2xx.o [4]
+  .rodata            const     0x800'6284     0x8  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'628c     0x8  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'6294     0x8  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'629c     0x8  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'62a4     0x4  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'62a8     0x4  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'62ac     0x4  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'62b0     0x4  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'62b4     0x4  iar_stm32f217ze_sk.o [4]
+  .rodata            const     0x800'62b8     0x4  iar_stm32f217ze_sk.o [4]
+  .text              ro code   0x800'62bc     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62c0     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62c4     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62c8     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62cc     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62d0     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62d4     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62d8     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62dc     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62e0     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62e4     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62e8     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62ec     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62f0     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62f4     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62f8     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'62fc     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6300     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6304     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6308     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'630c     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6310     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6314     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6318     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'631c     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6320     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6324     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6328     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'632c     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6330     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6334     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6338     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'633c     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6340     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6344     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6348     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'634c     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6350     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6354     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6358     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'635c     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6360     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6364     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6368     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'636c     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6370     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6374     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6378     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'637c     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6380     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6384     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6388     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'638c     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6390     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6394     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6398     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'639c     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63a0     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63a4     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63a8     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63ac     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63b0     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63b4     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63b8     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63bc     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63c0     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63c4     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63c8     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63cc     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63d0     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63d4     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63d8     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63dc     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63e0     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63e4     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63e8     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63ec     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63f0     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63f4     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63f8     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'63fc     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6400     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6404     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6408     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'640c     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6410     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6414     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6418     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'641c     0x4  startup_stm32f2xx.o [4]
+  .text              ro code   0x800'6420     0x4  startup_stm32f2xx.o [4]
+  .rodata            const     0x800'6424     0x0  packbits_init_single.o [8]
+  Initializer bytes  const     0x800'6424    0x68  <for P2-1>
+                             - 0x800'648c  0x6308
+
+"P2", part 1 of 2:                           0xb1
+  P2-1                        0x2000'0000    0xb1  <Init block>
+    .data            inited   0x2000'0000     0x4  drv_glcd.o [5]
+    .data            inited   0x2000'0004     0x4  drv_glcd.o [5]
+    .data            inited   0x2000'0008     0x4  drv_glcd.o [5]
+    .data            inited   0x2000'000c    0x10  iar_stm32f217ze_sk.o [4]
+    .data            inited   0x2000'001c    0x20  iar_stm32f217ze_sk.o [4]
+    .data            inited   0x2000'003c     0x8  iar_stm32f217ze_sk.o [4]
+    .data            inited   0x2000'0044     0x8  iar_stm32f217ze_sk.o [4]
+    .data            inited   0x2000'004c     0x8  iar_stm32f217ze_sk.o [4]
+    .data            inited   0x2000'0054    0x18  Terminal_9_12x6.o [3]
+    .bss             inited   0x2000'006c     0x4  drv_glcd.o [5]
+    .bss             inited   0x2000'0070     0x4  drv_glcd.o [5]
+    .bss             inited   0x2000'0074     0x4  drv_glcd.o [5]
+    .bss             inited   0x2000'0078     0x4  drv_glcd.o [5]
+    .bss             inited   0x2000'007c     0x4  drv_glcd.o [5]
+    .bss             inited   0x2000'0080     0x4  drv_glcd.o [5]
+    .bss             inited   0x2000'0084     0x4  drv_glcd.o [5]
+    .bss             inited   0x2000'0088     0x4  drv_glcd.o [5]
+    .bss             inited   0x2000'008c     0x4  drv_glcd.o [5]
+    .bss             inited   0x2000'0090     0x4  drv_glcd.o [5]
+    .bss             inited   0x2000'0094     0x4  drv_glcd.o [5]
+    .bss             inited   0x2000'0098     0x4  glcd_ll.o [5]
+    .bss             inited   0x2000'009c    0x10  main.o [3]
+    .bss             inited   0x2000'00ac     0x4  xfail_s.o [6]
+    .bss             inited   0x2000'00b0     0x1  drv_glcd.o [5]
+                            - 0x2000'00b1    0xb1
+
+"P2", part 2 of 2:                          0x400
+  CSTACK                      0x2000'00b8   0x400  <Block>
+    CSTACK           uninit   0x2000'00b8   0x400  <Block tail>
+                            - 0x2000'04b8   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'648c   0x80f'ffff  0xf'9b74
+  0x2000'00b1  0x2000'00b7       0x7
+  0x2000'04b8  0x2002'0000  0x1'fb49
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x68 (58% of destination):
+           0x800'6424  0x68
+    1 destination range, total size 0xb1:
+          0x2000'0000  0xb1
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\CMSIS: [1]
+    system_stm32f2xx.o          284
+    -------------------------------------------------
+    Total:                      284
+
+C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver: [2]
+    misc.o                      120
+    stm32f2xx_dcmi.o            272
+    stm32f2xx_dma.o             636
+    stm32f2xx_exti.o            152
+    stm32f2xx_fsmc.o            344
+    stm32f2xx_gpio.o            310
+    stm32f2xx_rcc.o             504       16
+    stm32f2xx_syscfg.o           92
+    stm32f2xx_tim.o             344
+    stm32f2xx_usart.o           262
+    -------------------------------------------------
+    Total:                    3'036       16
+
+C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\User: [3]
+    Terminal_9_12x6.o                  3'106       24
+    main.o                      516       26       16
+    stm32f2xx_it.o               18
+    -------------------------------------------------
+    Total:                      534    3'132       40
+
+C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\board: [4]
+    iar_stm32f217ze_sk.o        696      226       72
+    startup_stm32f2xx.o         764
+    -------------------------------------------------
+    Total:                    1'460      226       72
+
+C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\modules: [5]
+    E700_Camera.o             2'048
+    ExternalSRAM.o              828      272
+    drv_glcd.o                2'822    1'895       57
+    glcd_ll.o                   728        2        4
+    -------------------------------------------------
+    Total:                    6'426    2'169       61
+
+dl7M_tln.a: [6]
+    abort.o                       6
+    exit.o                        4
+    low_level_init.o              4
+    vsprintf.o                   52
+    xfail_s.o                    64        2        4
+    xprintffull_nomb.o        3'862
+    xsprout.o                    10
+    -------------------------------------------------
+    Total:                    4'002        2        4
+
+m7M_tl.a: [7]
+    DblAddSub.o                 606
+    DblCmpGe.o                   52
+    DblCmpLe.o                   52
+    DblDiv.o                    582
+    DblMul.o                    426
+    DblToFlt.o                  104
+    DblToS32.o                   54
+    DblToU32.o                   34
+    FltAddSub.o                 354
+    FltCmpLe.o                   40
+    FltMul.o                    216
+    FltToDbl.o                   72
+    FltToS32.o                   38
+    S32ToDbl.o                   34
+    S32ToFlt.o                   36
+    U32ToDbl.o                   28
+    U32ToFlt.o                   26
+    frexp.o                     112
+    ldexp.o                     314
+    -------------------------------------------------
+    Total:                    3'180
+
+rt7M_tl.a: [8]
+    ABImemcpy.o                 166
+    ABImemset.o                 102
+    I64DivMod.o                 560
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 28
+    data_init.o                  40
+    memchr.o                     88
+    packbits_init_single.o       58
+    strchr.o                     22
+    strlen.o                     54
+    -------------------------------------------------
+    Total:                    1'160
+
+shb_l.a: [9]
+    ABIassert.o                  36
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       56
+
+    Gaps                         37        4
+    Linker created                        16    1'024
+-----------------------------------------------------
+    Grand Total:             20'175    5'565    1'201
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'6108          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'6118          --   Gb  - Linker created -
+?main                    0x800'6139         Code  Gb  cmain.o [8]
+APBAHBPrescTable         0x800'6264   0x10  Data  Lc  stm32f2xx_rcc.o [2]
+BUTTON_CLK               0x800'6118   0x20  Data  Gb  iar_stm32f217ze_sk.o [4]
+BUTTON_EXTI_LINE         0x800'6214   0x10  Data  Gb  iar_stm32f217ze_sk.o [4]
+BUTTON_IRQn              0x800'6244   0x10  Data  Gb  iar_stm32f217ze_sk.o [4]
+BUTTON_PIN               0x800'6204   0x10  Data  Gb  iar_stm32f217ze_sk.o [4]
+BUTTON_PIN_SOURCE        0x800'6234   0x10  Data  Gb  iar_stm32f217ze_sk.o [4]
+BUTTON_PORT             0x2000'001c   0x20  Data  Gb  iar_stm32f217ze_sk.o [4]
+BUTTON_PORT_SOURCE       0x800'6224   0x10  Data  Gb  iar_stm32f217ze_sk.o [4]
+BusFault_Handler         0x800'61b7    0x2  Code  Gb  stm32f2xx_it.o [3]
+COM_RX_AF                0x800'62b8    0x4  Data  Gb  iar_stm32f217ze_sk.o [4]
+COM_RX_PIN               0x800'62a8    0x4  Data  Gb  iar_stm32f217ze_sk.o [4]
+COM_RX_PIN_SOURCE        0x800'62b0    0x4  Data  Gb  iar_stm32f217ze_sk.o [4]
+COM_RX_PORT             0x2000'004c    0x8  Data  Gb  iar_stm32f217ze_sk.o [4]
+COM_RX_PORT_CLK          0x800'629c    0x8  Data  Gb  iar_stm32f217ze_sk.o [4]
+COM_TX_AF                0x800'62b4    0x4  Data  Gb  iar_stm32f217ze_sk.o [4]
+COM_TX_PIN               0x800'62a4    0x4  Data  Gb  iar_stm32f217ze_sk.o [4]
+COM_TX_PIN_SOURCE        0x800'62ac    0x4  Data  Gb  iar_stm32f217ze_sk.o [4]
+COM_TX_PORT             0x2000'0044    0x8  Data  Gb  iar_stm32f217ze_sk.o [4]
+COM_TX_PORT_CLK          0x800'6294    0x8  Data  Gb  iar_stm32f217ze_sk.o [4]
+COM_USART               0x2000'003c    0x8  Data  Gb  iar_stm32f217ze_sk.o [4]
+COM_USART_CLK            0x800'628c    0x8  Data  Gb  iar_stm32f217ze_sk.o [4]
+CSTACK$$Base            0x2000'00b8          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'04b8          --   Gb  - Linker created -
+DCMI_CROPCmd             0x800'550b   0x24  Code  Gb  stm32f2xx_dcmi.o [2]
+DCMI_CROPConfig          0x800'54cd   0x1a  Code  Gb  stm32f2xx_dcmi.o [2]
+DCMI_CaptureCmd          0x800'54e7   0x24  Code  Gb  stm32f2xx_dcmi.o [2]
+DCMI_Cmd                 0x800'54a9   0x24  Code  Gb  stm32f2xx_dcmi.o [2]
+DCMI_Config              0x800'4879  0x1da  Code  Lc  E700_Camera.o [5]
+DCMI_DeInit              0x800'5445   0x2c  Code  Gb  stm32f2xx_dcmi.o [2]
+DCMI_Init                0x800'5471   0x38  Code  Gb  stm32f2xx_dcmi.o [2]
+DMA_ClearFlag            0x800'53b7   0x20  Code  Gb  stm32f2xx_dma.o [2]
+DMA_Cmd                  0x800'5361   0x1c  Code  Gb  stm32f2xx_dma.o [2]
+DMA_DeInit               0x800'51c9  0x144  Code  Gb  stm32f2xx_dma.o [2]
+DMA_GetFlagStatus        0x800'5385   0x32  Code  Gb  stm32f2xx_dma.o [2]
+DMA_Init                 0x800'530d   0x54  Code  Gb  stm32f2xx_dma.o [2]
+DMA_SetCurrDataCounter   0x800'537d    0x8  Code  Gb  stm32f2xx_dma.o [2]
+DebugMon_Handler         0x800'61bd    0x2  Code  Gb  stm32f2xx_it.o [3]
+DelayResolution100us     0x800'3969   0x22  Code  Gb  main.o [3]
+E700_Camera_CaptureImage
+                         0x800'45ff   0x40  Code  Gb  E700_Camera.o [5]
+E700_Camera_Deinitialize
+                         0x800'45cb   0x34  Code  Gb  E700_Camera.o [5]
+E700_Camera_Initialize   0x800'4479  0x152  Code  Gb  E700_Camera.o [5]
+E700_Camera_ProcessImage
+                         0x800'463f  0x23a  Code  Gb  E700_Camera.o [5]
+EXTI_Init                0x800'4df1   0x86  Code  Gb  stm32f2xx_exti.o [2]
+ExtSRAM_Deinitialize     0x800'43df   0x12  Code  Gb  ExternalSRAM.o [5]
+ExtSRAM_Initialize       0x800'413d  0x2a2  Code  Gb  ExternalSRAM.o [5]
+ExtSRAM_Test             0x800'43f1   0x72  Code  Gb  ExternalSRAM.o [5]
+FSMC_NORSRAMCmd          0x800'5125   0x34  Code  Gb  stm32f2xx_fsmc.o [2]
+FSMC_NORSRAMDeInit       0x800'5009   0x3a  Code  Gb  stm32f2xx_fsmc.o [2]
+FSMC_NORSRAMInit         0x800'5043   0xe2  Code  Gb  stm32f2xx_fsmc.o [2]
+GLCD_Backlight           0x800'34e3    0xa  Code  Gb  glcd_ll.o [5]
+GLCD_Cmd_Iss0            0x800'58d0  0x360  Data  Lc  drv_glcd.o [5]
+GLCD_Cmd_Iss1            0x800'5c30  0x360  Data  Lc  drv_glcd.o [5]
+GLCD_LLInit              0x800'34ed   0xf8  Code  Gb  glcd_ll.o [5]
+GLCD_PowerUpInit         0x800'2cc7  0x1ac  Code  Gb  drv_glcd.o [5]
+GLCD_SPI_ChipSelect      0x800'35e5   0x1a  Code  Gb  glcd_ll.o [5]
+GLCD_SPI_Init            0x800'3615   0xc0  Code  Gb  glcd_ll.o [5]
+GLCD_SPI_ReceiveBlock    0x800'3753   0x1a  Code  Gb  glcd_ll.o [5]
+GLCD_SPI_SendBlock       0x800'3733   0x20  Code  Gb  glcd_ll.o [5]
+GLCD_SPI_SetWordWidth    0x800'35ff   0x16  Code  Gb  glcd_ll.o [5]
+GLCD_SPI_TranserByte     0x800'36d5   0x5e  Code  Gb  glcd_ll.o [5]
+GLCD_SendCmd             0x800'29c1  0x306  Code  Gb  drv_glcd.o [5]
+GLCD_SendCmd::ResRatio  0x2000'0094    0x4  Data  Lc  drv_glcd.o [5]
+GLCD_SendCmd::Write2_DRAM
+                        0x2000'0090    0x4  Data  Lc  drv_glcd.o [5]
+GLCD_SetFont             0x800'2ef1   0x14  Code  Gb  drv_glcd.o [5]
+GLCD_SetReset            0x800'34c9   0x1a  Code  Gb  glcd_ll.o [5]
+GLCD_SetWindow           0x800'2f05   0x84  Code  Gb  drv_glcd.o [5]
+GLCD_TextCalcWindow      0x800'2f97  0x106  Code  Lc  drv_glcd.o [5]
+GLCD_TextSetPos          0x800'2f89    0xe  Code  Gb  drv_glcd.o [5]
+GLCD_UpdateMemory        0x800'2e73   0x7e  Code  Gb  drv_glcd.o [5]
+GLCD_print               0x800'3495   0x32  Code  Gb  drv_glcd.o [5]
+GLCD_putchar             0x800'309d  0x392  Code  Gb  drv_glcd.o [5]
+GPIO_CLK                 0x800'61f4   0x10  Data  Gb  iar_stm32f217ze_sk.o [4]
+GPIO_Init                0x800'39fd   0xa8  Code  Gb  stm32f2xx_gpio.o [2]
+GPIO_PIN                 0x800'6284    0x8  Data  Gb  iar_stm32f217ze_sk.o [4]
+GPIO_PORT               0x2000'000c   0x10  Data  Gb  iar_stm32f217ze_sk.o [4]
+GPIO_PinAFConfig         0x800'3ad1   0x62  Code  Gb  stm32f2xx_gpio.o [2]
+GPIO_ReadInputDataBit    0x800'3aa5   0x1c  Code  Gb  stm32f2xx_gpio.o [2]
+GPIO_WriteBit            0x800'3ac1   0x10  Code  Gb  stm32f2xx_gpio.o [2]
+Glcd_Iss                0x2000'00b0    0x1  Data  Lc  drv_glcd.o [5]
+HardFault_Handler        0x800'61b3    0x2  Code  Gb  stm32f2xx_it.o [3]
+LCD_Test                 0x800'37d1  0x148  Code  Gb  main.o [3]
+MemManage_Handler        0x800'61b5    0x2  Code  Gb  stm32f2xx_it.o [3]
+NMI_Handler              0x800'61b1    0x2  Code  Gb  stm32f2xx_it.o [3]
+NVIC_Init                0x800'4e89   0x66  Code  Gb  misc.o [2]
+OddPixel                0x2000'006c    0x4  Data  Lc  drv_glcd.o [5]
+PendSV_Handler           0x800'61bf    0x2  Code  Gb  stm32f2xx_it.o [3]
+PixelHold               0x2000'0070    0x4  Data  Lc  drv_glcd.o [5]
+RCC_AHB1PeriphClockCmd   0x800'3bfb   0x26  Code  Gb  stm32f2xx_rcc.o [2]
+RCC_AHB1PeriphResetCmd   0x800'3ca1   0x20  Code  Gb  stm32f2xx_rcc.o [2]
+RCC_AHB2PeriphClockCmd   0x800'3c21   0x20  Code  Gb  stm32f2xx_rcc.o [2]
+RCC_AHB3PeriphClockCmd   0x800'3c41   0x20  Code  Gb  stm32f2xx_rcc.o [2]
+RCC_APB1PeriphClockCmd   0x800'3c61   0x20  Code  Gb  stm32f2xx_rcc.o [2]
+RCC_APB1PeriphResetCmd   0x800'3cc1   0x20  Code  Gb  stm32f2xx_rcc.o [2]
+RCC_APB2PeriphClockCmd   0x800'3c81   0x20  Code  Gb  stm32f2xx_rcc.o [2]
+RCC_GetClocksFreq        0x800'3b35   0xc6  Code  Gb  stm32f2xx_rcc.o [2]
+RCC_MCO1Config           0x800'3ce1   0x18  Code  Gb  stm32f2xx_rcc.o [2]
+Region$$Table$$Base      0x800'6108          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'6118          --   Gb  - Linker created -
+STM_EVAL_COMInit         0x800'3fe9   0xfa  Code  Gb  iar_stm32f217ze_sk.o [4]
+STM_EVAL_LEDInit         0x800'3e85   0x4a  Code  Gb  iar_stm32f217ze_sk.o [4]
+STM_EVAL_LEDOff          0x800'3ee7   0x18  Code  Gb  iar_stm32f217ze_sk.o [4]
+STM_EVAL_LEDOn           0x800'3ecf   0x18  Code  Gb  iar_stm32f217ze_sk.o [4]
+STM_EVAL_PBGetState      0x800'3fcb   0x1e  Code  Gb  iar_stm32f217ze_sk.o [4]
+STM_EVAL_PBInit          0x800'3eff   0xcc  Code  Gb  iar_stm32f217ze_sk.o [4]
+SVC_Handler              0x800'61bb    0x2  Code  Gb  stm32f2xx_it.o [3]
+SYSCFG_EXTILineConfig    0x800'4d95   0x58  Code  Gb  stm32f2xx_syscfg.o [2]
+SetSysClock              0x800'4cbf   0xb6  Code  Lc  system_stm32f2xx.o [1]
+SysTickStart             0x800'37a1   0x28  Code  Gb  main.o [3]
+SysTickStop              0x800'37c9    0x8  Code  Gb  main.o [3]
+SysTick_Handler          0x800'61c1    0x2  Code  Gb  stm32f2xx_it.o [3]
+SystemInit               0x800'4c79   0x46  Code  Gb  system_stm32f2xx.o [1]
+TIM_ARRPreloadConfig     0x800'3e67   0x1e  Code  Gb  stm32f2xx_tim.o [2]
+TIM_Cmd                  0x800'3e3d   0x1e  Code  Gb  stm32f2xx_tim.o [2]
+TIM_InternalClockConfig
+                         0x800'3e5b    0xc  Code  Gb  stm32f2xx_tim.o [2]
+TIM_OC3Init              0x800'3d99   0x86  Code  Gb  stm32f2xx_tim.o [2]
+TIM_TimeBaseInit         0x800'3d2d   0x6c  Code  Gb  stm32f2xx_tim.o [2]
+TabSize                 0x2000'0008    0x4  Data  Lc  drv_glcd.o [5]
+Terminal_9_12_6         0x2000'0054   0x18  Data  Gb  Terminal_9_12x6.o [3]
+TextBackgndColour       0x2000'007c    0x4  Data  Lc  drv_glcd.o [5]
+TextColour              0x2000'0078    0x4  Data  Lc  drv_glcd.o [5]
+TextStream               0x800'1dc0  0xc00  Data  Lc  Terminal_9_12x6.o [3]
+TextX_Pos               0x2000'0080    0x4  Data  Lc  drv_glcd.o [5]
+TextY_Pos               0x2000'0084    0x4  Data  Lc  drv_glcd.o [5]
+USART_Cmd                0x800'4fe9   0x1e  Code  Gb  stm32f2xx_usart.o [2]
+USART_Init               0x800'4f01   0xdc  Code  Gb  stm32f2xx_usart.o [2]
+USART_InitStructure     0x2000'009c   0x10  Data  Gb  main.o [3]
+UsageFault_Handler       0x800'61b9    0x2  Code  Gb  stm32f2xx_it.o [3]
+Width                   0x2000'0098    0x4  Data  Lc  glcd_ll.o [5]
+XL_Win                  0x2000'0088    0x4  Data  Lc  drv_glcd.o [5]
+XR_Win                  0x2000'0000    0x4  Data  Lc  drv_glcd.o [5]
+YD_Win                  0x2000'0004    0x4  Data  Lc  drv_glcd.o [5]
+YU_Win                  0x2000'008c    0x4  Data  Lc  drv_glcd.o [5]
+_LitobFullNoMb           0x800'0ea1  0x10c  Code  Lc  xprintffull_nomb.o [6]
+_PrintfFullNoMb          0x800'0185  0xcec  Code  Gb  xprintffull_nomb.o [6]
+_PutcharFullNoMb         0x800'1005   0x20  Code  Lc  xprintffull_nomb.o [6]
+_PutcharsFullNoMb        0x800'1025   0x2e  Code  Lc  xprintffull_nomb.o [6]
+_SProut                  0x800'10eb    0xa  Code  Gb  xsprout.o [6]
+__aeabi_assert           0x800'39a5   0x24  Code  Gb  ABIassert.o [9]
+__aeabi_cdcmple          0x800'12dd         Code  Gb  DblCmpLe.o [7]
+__aeabi_cdrcmple         0x800'1311         Code  Gb  DblCmpGe.o [7]
+__aeabi_cfcmple          0x800'5881         Code  Gb  FltCmpLe.o [7]
+__aeabi_d2f              0x800'5819         Code  Gb  DblToFlt.o [7]
+__aeabi_d2iz             0x800'1481         Code  Gb  DblToS32.o [7]
+__aeabi_d2uiz            0x800'1985         Code  Gb  DblToU32.o [7]
+__aeabi_dadd             0x800'14dd         Code  Gb  DblAddSub.o [7]
+__aeabi_ddiv             0x800'173d         Code  Gb  DblDiv.o [7]
+__aeabi_dmul             0x800'19c5         Code  Gb  DblMul.o [7]
+__aeabi_dsub             0x800'1659         Code  Gb  DblAddSub.o [7]
+__aeabi_f2d              0x800'57d1         Code  Gb  FltToDbl.o [7]
+__aeabi_f2iz             0x800'58a9         Code  Gb  FltToS32.o [7]
+__aeabi_fadd             0x800'566d         Code  Gb  FltAddSub.o [7]
+__aeabi_fmul             0x800'5595         Code  Gb  FltMul.o [7]
+__aeabi_i2d              0x800'14b9         Code  Gb  S32ToDbl.o [7]
+__aeabi_i2f              0x800'5571         Code  Gb  S32ToFlt.o [7]
+__aeabi_ldiv0            0x800'1da9         Code  Gb  I64DivZer.o [8]
+__aeabi_memcpy           0x800'11c5         Code  Gb  ABImemcpy.o [8]
+__aeabi_memcpy4          0x800'11e5         Code  Gb  ABImemcpy.o [8]
+__aeabi_memcpy8          0x800'11e5         Code  Gb  ABImemcpy.o [8]
+__aeabi_memset           0x800'5161         Code  Gb  ABImemset.o [8]
+__aeabi_ui2d             0x800'19a9         Code  Gb  U32ToDbl.o [7]
+__aeabi_ui2f             0x800'5555         Code  Gb  U32ToFlt.o [7]
+__aeabi_uldivmod         0x800'1b71         Code  Gb  I64DivMod.o [8]
+__cmain                  0x800'6139         Code  Gb  cmain.o [8]
+__exit                   0x800'1dad   0x14  Code  Gb  exit.o [9]
+__iar_Fail_s             0x800'10f5   0x1c  Code  Gb  xfail_s.o [6]
+__iar_Memchr             0x800'116d         Code  Gb  memchr.o [8]
+__iar_Memset             0x800'5161         Code  Gb  ABImemset.o [8]
+__iar_Memset_word        0x800'5169         Code  Gb  ABImemset.o [8]
+__iar_Strchr             0x800'10d5         Code  Gb  strchr.o [8]
+__iar_data_init3         0x800'60e1   0x28  Code  Gb  data_init.o [8]
+__iar_frexp              0x800'1279         Code  Gb  frexp.o [7]
+__iar_frexp64            0x800'126d         Code  Gb  frexp.o [7]
+__iar_frexpl             0x800'1279         Code  Gb  frexp.o [7]
+__iar_ldexp64            0x800'1345         Code  Gb  ldexp.o [7]
+__iar_packbits_init_single3
+                         0x800'109b   0x3a  Code  Gb  packbits_init_single.o [8]
+__iar_program_start      0x800'616d         Code  Gb  cstartup_M.o [8]
+__iar_scalbln64          0x800'1345         Code  Gb  ldexp.o [7]
+__iar_scalbn64           0x800'1345         Code  Gb  ldexp.o [7]
+__low_level_init         0x800'6157    0x4  Code  Gb  low_level_init.o [6]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f2xx.o [4]
+_call_main               0x800'6145         Code  Gb  cmain.o [8]
+_exit                    0x800'6161         Code  Gb  cexit.o [8]
+abort                    0x800'1da1    0x6  Code  Gb  abort.o [6]
+exit                     0x800'615b    0x4  Code  Gb  exit.o [6]
+frexp                    0x800'126d         Code  Gb  frexp.o [7]
+frexpl                   0x800'126d         Code  Gb  frexp.o [7]
+ldexp                    0x800'1345         Code  Gb  ldexp.o [7]
+ldexpl                   0x800'1345         Code  Gb  ldexp.o [7]
+local_I2C_Delay          0x800'4aa1    0xe  Code  Lc  E700_Camera.o [5]
+local_I2C_Initialize     0x800'4a53   0x4e  Code  Lc  E700_Camera.o [5]
+local_I2C_ReadByte       0x800'4b07   0xb4  Code  Lc  E700_Camera.o [5]
+local_I2C_Start          0x800'4aaf   0x24  Code  Lc  E700_Camera.o [5]
+local_I2C_Stop           0x800'4ad3   0x34  Code  Lc  E700_Camera.o [5]
+local_I2C_WriteByte      0x800'4bbb   0x86  Code  Lc  E700_Camera.o [5]
+main                     0x800'3919   0x50  Code  Gb  main.o [3]
+memchr                   0x800'116d         Code  Gb  memchr.o [8]
+pCurrFont               0x2000'0074    0x4  Data  Lc  drv_glcd.o [5]
+scalbln                  0x800'1345         Code  Gb  ldexp.o [7]
+scalblnl                 0x800'1345         Code  Gb  ldexp.o [7]
+scalbn                   0x800'1345         Code  Gb  ldexp.o [7]
+scalbnl                  0x800'1345         Code  Gb  ldexp.o [7]
+scale                    0x800'0fad   0x46  Code  Lc  xprintffull_nomb.o [6]
+sec_hand                0x2000'00ac    0x4  Data  Lc  xfail_s.o [6]
+strchr                   0x800'10d5         Code  Gb  strchr.o [8]
+strlen                   0x800'1135         Code  Gb  strlen.o [8]
+vsprintf                 0x800'39c9   0x34  Code  Gb  vsprintf.o [6]
+
+
+[1] = C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\CMSIS
+[2] = C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\STM32F2xx_StdPeriph_Driver
+[3] = C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\User
+[4] = C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\board
+[5] = C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\STM32_PFE\Obj\modules
+[6] = dl7M_tln.a
+[7] = m7M_tl.a
+[8] = rt7M_tl.a
+[9] = shb_l.a
+
+  20'175 bytes of readonly  code memory
+   5'565 bytes of readonly  data memory
+   1'201 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

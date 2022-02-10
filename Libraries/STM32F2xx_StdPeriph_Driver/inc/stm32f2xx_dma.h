@@ -3,7 +3,7 @@
   * @file    stm32f2xx_dma.h
   * @author  MCD Application Team
   * @version V0.0.3
-  * @date    10/15/2010
+  * @date    10/15/2021
   * @brief   This file contains all the functions prototypes for the DMA firmware library.
   ******************************************************************************
   * @copy

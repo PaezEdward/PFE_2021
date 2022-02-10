@@ -55,7 +55,7 @@ int LCD_Test(void)
 	char BacklightStep = 1;
 	char cameraInitSuccessFlag = 0;
 
-	printf("Press Esc for exit\n\r");
+	//printf("Press Esc for exit\n\r");
 
 	STM_EVAL_LEDInit(LED1);
 	STM_EVAL_LEDInit(LED2);
@@ -71,22 +71,22 @@ int LCD_Test(void)
 
 	if( ExtSRAM_Initialize() )
 	{
-		printf("SRAM Init fault\n\r");
+		//printf("SRAM Init fault\n\r");
 		return 1;
 	} else {
-		printf("SRAM Testing...");
+		//printf("SRAM Testing...");
 		switch( ExtSRAM_Test() ) {
 		case 0:
-			printf("OK\n\r");		
+			//printf("OK\n\r");		
 			break;
 		case -1:
-			printf("SRAM address bus error!\n\r");
+			//printf("SRAM address bus error!\n\r");
 			return 1;
 		case -2:
-			printf("SRAM data bus error!\n\r");
+			//printf("SRAM data bus error!\n\r");
 			return 1;
 		default:
-			printf("SRAM unknown error!\n\r");
+			//printf("SRAM unknown error!\n\r");
 			return 1;
 		}
 	}
@@ -97,7 +97,7 @@ int LCD_Test(void)
 	
 	if( E700_Camera_Initialize() ) {
 		E700_Camera_Deinitialize();
-		printf("Camera init error(maybe I2C line is bugged)!\n\r");
+		//printf("Camera init error(maybe I2C line is bugged)!\n\r");
 
 		GLCD_SetFont(&Terminal_9_12_6,0x000F00,0x00FF0);
 		GLCD_SetWindow(10,116,131,131);
@@ -149,7 +149,7 @@ int LCD_Test(void)
 	//SysTickStop();
 
 	/**/
-	printf("                                              \r");
+	//printf("                                              \r");
 
 	return 0;
 }
@@ -179,19 +179,19 @@ int main(void)
 	USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
 	USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
 
-	STM_EVAL_COMInit(COM1, &USART_InitStructure);
+        STM_EVAL_COMInit(COM1, &USART_InitStructure);
 
-	printf("\n\r");
-	printf("**************************************************\n\r");
-	printf("            OLIMEX STM32-Ed Ry\n\r");
-	printf("**************************************************\n\r");
+	//printf("\n\r");
+	//printf("**************************************************\n\r");
+	//printf("            OLIMEX STM32-Ed Ry\n\r");
+	//printf("**************************************************\n\r");
 
 
 	SysTickStop();
 	
-	printf("\n\r");
-	printf("**************************************************\n\r");
-	printf("Test Started\n\r");
+	//printf("\n\r");
+	//printf("**************************************************\n\r");
+	//printf("Test Started\n\r");
 	
 	LCD_Test();
 
@@ -200,8 +200,8 @@ int main(void)
 
 	STM_EVAL_COMInit(COM1, &USART_InitStructure);
 	
-	printf("  TEST END\n\r");
-	printf("**************************************************\n\r");
+	//printf("  TEST END\n\r");
+	//printf("**************************************************\n\r");
 }
 
 

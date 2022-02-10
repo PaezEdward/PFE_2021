@@ -66,7 +66,7 @@ int E700_Camera_Initialize(void)
 	
 	RCC_MCO1Config(RCC_MCO1Source_HSE, RCC_MCO1Div_1);
 	
-	// enable power
+	// enable power CAM_PWR
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOF, ENABLE);
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_9;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
@@ -79,7 +79,7 @@ int E700_Camera_Initialize(void)
 	// init DCMI interface and DMI
 	DCMI_Config();
 	
-	// release reset
+	// release reset  CAM_RST
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOF, ENABLE);
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
@@ -89,7 +89,7 @@ int E700_Camera_Initialize(void)
 	GPIO_Init(GPIOF, &GPIO_InitStructure);
 	GPIO_WriteBit(GPIOF, GPIO_Pin_11, Bit_SET);
 	
-	// enable operation
+	// enable operation CAM_ENB
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
@@ -155,8 +155,7 @@ pInt8U E700_Camera_CaptureImage(void)
 		DCMI_CaptureCmd(ENABLE);
 		
 		// wait for the transfer to complete
-		while( DMA_GetFlagStatus(DMA2_Stream1, DMA_FLAG_TCIF1) != SET )
-			;
+		while( DMA_GetFlagStatus(DMA2_Stream1, DMA_FLAG_TCIF1) != SET );
 		DMA_ClearFlag(DMA2_Stream1, DMA_FLAG_TCIF1);
 		
 		// reload number of transfers for the next capture
@@ -200,7 +199,7 @@ void E700_Camera_ProcessImage(pInt8U pInData, pInt8U pOutData, Int16U width, Int
 
 		calcR = Y1 + 1.371f * (Cr - 128);
 		calcG = Y1 - 0.698f * (Cr - 128) - 0.336 * (Cb - 128);
-		calcB = 10;//Y1 + 1.732f * (Cb - 128);
+		calcB = Y1 + 1.732f * (Cb - 128);
 	
 		if (calcR < 0) calcR = 0;
 		if (calcG < 0) calcG = 0;

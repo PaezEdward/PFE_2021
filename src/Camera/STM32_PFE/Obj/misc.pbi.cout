@@ -10,23 +10,9 @@ C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\..\..\Libraries\CMSIS\CM3\D
 -I
 C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\..\..\Libraries\STM32F2xx_StdPeriph_Driver\inc
 -I
-C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\..\..\Libraries\STM32_ETH_Driver\inc
--I
-C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\..\..\Libraries\STM32_USB-FS-Device_Driver\inc
--I
 C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\..\..\board
 -I
 C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\..\..\modules
--I
-C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\Ethernet\app
--I
-C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\Ethernet\uip
--I
-C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\Ethernet\uip\httpd
--I
-C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\USB\app
--I
-C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\USB\modules
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\CMSIS\Include
 -I
@@ -42,23 +28,9 @@ C:\Users\Edward\Documents\GitHub\PFE_2021\Libraries\CMSIS\CM3\DeviceSupport\ST\S
 -I
 C:\Users\Edward\Documents\GitHub\PFE_2021\Libraries\STM32F2xx_StdPeriph_Driver\inc
 -I
-C:\Users\Edward\Documents\GitHub\PFE_2021\Libraries\STM32_ETH_Driver\inc
--I
-C:\Users\Edward\Documents\GitHub\PFE_2021\Libraries\STM32_USB-FS-Device_Driver\inc
--I
 C:\Users\Edward\Documents\GitHub\PFE_2021\board
 -I
 C:\Users\Edward\Documents\GitHub\PFE_2021\modules
--I
-C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\Ethernet\app
--I
-C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\Ethernet\uip
--I
-C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\Ethernet\uip\httpd
--I
-C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\USB\app
--I
-C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\USB\modules
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\arm\CMSIS\Include
 -DUSE_STDPERIPH_DRIVER=1

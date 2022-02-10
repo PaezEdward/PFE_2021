@@ -6789,7 +6789,7 @@ typedef struct
   */ 
 
 #ifdef USE_STDPERIPH_DRIVER
-  #include "stm32f2xx_conf.h "
+#include "stm32f2xx_conf.h"
 #endif /* USE_STDPERIPH_DRIVER */
 
 /** @addtogroup Exported_macro

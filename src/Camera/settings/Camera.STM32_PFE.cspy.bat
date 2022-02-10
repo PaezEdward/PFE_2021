@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\settings\Camera.STM32_PFE.general.xcl" --backend -f "C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\settings\Camera.STM32_PFE.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0_2\common\bin\cspybat" -f "C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\settings\Camera.STM32_PFE.general.xcl" --backend -f "C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\settings\Camera.STM32_PFE.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.3\common\bin\cspybat" -f "C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\settings\Camera.STM32_PFE.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\settings\Camera.STM32_PFE.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0_2\common\bin\cspybat" -f "C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\settings\Camera.STM32_PFE.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Edward\Documents\GitHub\PFE_2021\src\Camera\settings\Camera.STM32_PFE.driver.xcl" 
 
 @echo off 
 :end
